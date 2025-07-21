@@ -26,4 +26,4 @@ Uses a curated healthcare insurance dataset containing:
 
 > You can find the dataset in the `data/` folder .
 
-## 🏗️ Project Structure
+
