@@ -50,50 +50,32 @@ Healthcare-Premium-Prediction/
 ## 🧪 How to Use
 
 ```bash
- 1. Clone the Repository
-
+1️⃣ Clone the Repository
 git clone https://github.com/VishalNegi21/Healthcare-Premium-Prediction.git
 cd Healthcare-Premium-Prediction
-2. Install Dependencies
-Make sure you have Python 3.8+ installed. Then run:
 
-bash
-Copy
-Edit
+2️⃣ Install Dependencies
+Make sure you have Python 3.8+ installed, then run:
 pip install -r requirements.txt
-3. Run the Prediction Script
-Navigate to the app/ directory and run:
 
-bash
-Copy
-Edit
-python main.py
-4. Enter the Required Inputs
-When prompted, enter the following details:
+3️⃣ Launch the Streamlit App
+Run the main script using:
+streamlit run main.py
 
-Age
+4️⃣ Enter Inputs in the UI
+When prompted in the Streamlit form, provide:
+- Age
+- Number of dependants
+- Income (in lakhs)
+- Insurance plan (number: 0, 1, or 2)
+- Genetic risk (1 = Yes, 0 = No)
+- Normalized risk score (e.g., 0.82)
+- Gender (Male or Female)
+- Region (Southeast, Southwest, Northwest, Northeast)
 
-Number of dependants
+✨ Based on your age, the app automatically chooses the correct prediction model and displays your predicted premium.
 
-Income (in lakhs)
 
-Insurance plan (as number: e.g., 0, 1, 2)
-
-Genetic risk (1 = Yes, 0 = No)
-
-Normalized risk score (e.g., 0.82)
-
-Gender (e.g., Male or Female)
-
-Region (e.g., Southeast, Southwest, Northwest, Northeast)
-
-The script will automatically:
-
-Determine which model to use based on the age
-
-Preprocess inputs using the correct scaler
-
-Display the predicted healthcare premium
 
 
 
