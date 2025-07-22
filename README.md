@@ -49,9 +49,9 @@ Healthcare-Premium-Prediction/
 
 ## 🧪 How to Use
 
+```bash
  1. Clone the Repository
 
-```bash
 git clone https://github.com/VishalNegi21/Healthcare-Premium-Prediction.git
 cd Healthcare-Premium-Prediction
 2. Install Dependencies
