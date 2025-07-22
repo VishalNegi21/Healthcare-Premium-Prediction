@@ -28,7 +28,7 @@ This project predicts healthcare insurance premiums based on user inputs such as
 
 ## 📁 Project Structure
 
-
+```bash
 
 Healthcare-Premium-Prediction/
 │
@@ -50,6 +50,7 @@ Healthcare-Premium-Prediction/
 ## 🧪 How to Use
 
 ```bash
+
 1️⃣ Clone the Repository
 git clone https://github.com/VishalNegi21/Healthcare-Premium-Prediction.git
 cd Healthcare-Premium-Prediction
