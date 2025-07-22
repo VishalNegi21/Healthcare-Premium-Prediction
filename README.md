@@ -49,7 +49,7 @@ Healthcare-Premium-Prediction/
 
 ## 🧪 How to Use
 
-```bash
+
 
 1️⃣ Clone the Repository
 git clone https://github.com/VishalNegi21/Healthcare-Premium-Prediction.git
