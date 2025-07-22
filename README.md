@@ -30,18 +30,13 @@ This project predicts healthcare insurance premiums based on user inputs such as
 
 Healthcare-Premium-Prediction/
 │
-├── artifacts/
-│ ├── model_young.joblib # ML model for users aged ≤ 25
-│ ├── model_rest.joblib # ML model for users aged > 25
-│ ├── scaler_young.joblib # Scaler for younger users
-│ ├── scaler_rest.joblib # Scaler for older users
-│ └── predict.py # Prediction logic
-│
-├── app/
-│ └── main.py # Main script to take user input & predict
-│
-├── requirements.txt # List of required Python packages
-├── README.md # Project documentation
+├── main.py # Main Streamlit app
+├── prediction_helper.py # Contains model loading and prediction logic
+├── premiums.xlsx # Raw data file (combined)
+├── premiums_rest.xlsx # Data used for model_rest
+├── premiums_young_with_gr.xlsx# Data used for model_young
+├── requirements.txt # Project dependencies
+├── README.md # Documentation
 └── .gitignore
 
 
