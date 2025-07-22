@@ -29,7 +29,7 @@ This project predicts healthcare insurance premiums based on user inputs such as
 ## 📁 Project Structure
 
 
-```bash
+
 Healthcare-Premium-Prediction/
 │
 ├── main.py                     # Streamlit app entry point
