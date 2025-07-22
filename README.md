@@ -29,7 +29,20 @@ This project predicts healthcare insurance premiums based on user inputs such as
 ## 📁 Project Structure
 
 
- ``` Healthcare-Premium-Prediction/ │ ├── main.py # Main Streamlit app ├── prediction_helper.py # Contains model loading and prediction logic ├── premiums.xlsx # Raw data file (combined) ├── premiums_rest.xlsx # Data used for model_rest ├── premiums_young_with_gr.xlsx # Data used for model_young ├── requirements.txt # Project dependencies ├── README.md # Documentation └── .gitignore ``` 
+```bash
+Healthcare-Premium-Prediction/
+│
+├── main.py                     # Streamlit app entry point
+├── prediction_helper.py        # Model loading and prediction functions
+├── premiums.xlsx               # Raw combined dataset
+├── premiums_rest.xlsx          # Dataset for users above 25
+├── premiums_young_with_gr.xlsx # Dataset for users 25 and below
+├── requirements.txt            # Project dependencies
+├── README.md                   # Documentation
+├── LICENSE                     # License info
+└── .gitignore                  # Ignored files and folders
+```
+
 
 
 ---
